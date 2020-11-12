@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const taskInput = document.getElementById('new-task-description');
     if (taskInput.value !== null) {
     const li = document.createElement('li');
-    li.innerText = taskInput.value;
+    li.innerText = taskInput.value + " ";
     const btn = document.createElement('button');
     btn.innerText = "🗑"
     btn.className = "delete"
